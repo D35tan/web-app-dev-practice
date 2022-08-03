@@ -1,0 +1,15 @@
+input {
+  width: 16rem;
+  height: 2rem;
+  border: 2px solid blue;
+}
+button {
+  width: 8rem;
+  height: 2rem;
+  font-size: 0.8rem;
+}
+body {
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+}
