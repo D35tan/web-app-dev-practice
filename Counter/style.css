@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100%;
+}
+header {
+  margin: 0;
+  background-color: orange;
+  height: 12rem;
+  position: relative;
+}
+h1 {
+  margin: 0;
+  padding: 2rem;
+}
+h3 {
+  margin: 0;
+  padding-left: 2rem;
+}
+#reset {
+  height: 6rem;
+  width: 12rem;
+  position: absolute;
+  top: 3rem;
+  right: 2rem;
+  font-size: 3rem;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to right, gold, gold);
+  background-size: 0;
+  background-repeat: no-repeat;
+  font-size: xx-large;
+}
