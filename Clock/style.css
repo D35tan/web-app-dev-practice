@@ -1,0 +1,95 @@
+:root {
+  --secs-rotation: 0;
+  --mins-rotation: 0;
+  --hours-rotation: 0;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: "Noto Sans Mono", monospace;
+}
+body {
+  height: 100%;
+  background-color: #101034;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.analog-clock {
+  position: relative;
+  _background-color: #3b377a;
+  border-radius: 50%;
+  height: 20rem;
+  width: 20rem;
+  border: 3px solid #5b5b5b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.an-hours {
+  _background-color: #101034;
+  background-image: linear-gradient(
+    90deg,
+    #101034 20%,
+    #851414 50%,
+    #101034 80%
+  );
+  width: 0.5rem;
+  height: 5rem;
+  position: absolute;
+  border: 2px solid #5b5b5b;
+  border-radius: 6px;
+  transform: rotate(var(--hours-rotation)) translateY(-50%);
+}
+.an-mins {
+  _background-color: #101034;
+  background-image: linear-gradient(
+    90deg,
+    #101034 20%,
+    #a99b06 50%,
+    #101034 80%
+  );
+  width: 0.4rem;
+  height: 8rem;
+  position: absolute;
+  border: 2px solid #5b5b5b;
+  border-radius: 6px;
+  transform: rotate(var(--mins-rotation)) translateY(-50%);
+}
+.an-secs {
+  _background-color: #101034;
+  background-image: linear-gradient(
+    90deg,
+    #101034 20%,
+    #0680a9 50%,
+    #101034 80%
+  );
+  width: 0.125rem;
+  height: 9rem;
+  position: absolute;
+  border: 2px solid #5b5b5b;
+  border-radius: 6px;
+  transform: rotate(var(--secs-rotation)) translateY(-50%);
+}
+.an-center {
+  background-color: #101034;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  position: absolute;
+  border: 2px solid #5b5b5b;
+}
+.digital-clock {
+  padding-inline: 1rem;
+  margin: 2rem;
+  display: flex;
+  align-items: baseline;
+  border: 3px solid #5b5b5b;
+  border-radius: 8px;
+  font-size: xx-large;
+  _color: #3b377a;
+  color: #5b5b5b;
+}
