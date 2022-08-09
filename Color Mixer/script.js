@@ -22,9 +22,9 @@ function rgbCodeOutput() {
     "rgb:" +
     " " +
     redSlide.value +
-    " " +
+    ", " +
     greenSlide.value +
-    " " +
+    ", " +
     blueSlide.value;
 }
 
