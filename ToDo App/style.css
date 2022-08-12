@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  margin: 0;
+  background-color: #101034;
+}
+form {
+  background-color: #3b377a;
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+#instruction {
+  color: rgba(10, 10, 10, 0.5);
+  margin: 0;
+  font-size: 0.8rem;
+}
+#list {
+  margin: 0;
+  padding: 1rem;
+  padding-top: 0;
+  color: #c6c6c6;
+}
+ul {
+  color: #c6c6c6;
+}

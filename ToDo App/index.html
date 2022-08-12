@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form onsubmit="return false">
+      <!-- <p id="instruction">
+        Type in a description for a new ToDo and press "Add" to add it to the
+        list
+      </p> -->
+      <input id="desc" placeholder="Type in a description" type="text" />
+      <button id="add">Add to list</button>
+    </form>
+    <div id="list">
+      <h3>To Do's</h3>
+      <ul id="uList"></ul>
+      <button id="remove">Remove all done</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
