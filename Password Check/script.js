@@ -37,7 +37,7 @@ function checkLCase() {
   }
 }
 function checkUCase() {
-  const upperC = /[a-z]/;
+  const upperC = /[A-Z]/;
   let checker = upperC.test(input1.value);
   const uCase = document.querySelector("#u-case");
   if (checker) {
