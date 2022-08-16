@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Check</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Password Check</h1>
+    <form onsubmit="return false">
+      <input type="password" name="first-password" id="password" />
+      <input type="password" name="password-doublecheck" id="password2" />
+      <button>Show Password</button>
+      <div id="requirements">
+        <p id="equal">Passwords are equal ❌</p>
+        <p id="l-case">Lower Case Letters ❌</p>
+        <p id="u-case">Upper Case Letters ❌</p>
+        <p id="nums">Contains Numbers ❌</p>
+        <p id="chars">"At least 10 characters long ❌"</p>
+      </div>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
